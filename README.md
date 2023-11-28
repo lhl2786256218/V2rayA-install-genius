@@ -1,6 +1,6 @@
-V2rayA-install-genius
+V2rayA-Installation-Assistant
 
-You can use this script to install v2raya more easily!
+You can use this script to install V2rayA more easily!
 
 
 Usage:
