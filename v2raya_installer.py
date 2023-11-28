@@ -56,7 +56,6 @@ try:
 	os.system('update-alternatives --set iptables /usr/sbin/iptables-nft && update-alternatives --set ip6tables /usr/sbin/ip6tables-nft')
 	os.system('update-alternatives --set arptables /usr/sbin/arptables-nft && update-alternatives --set ebtables /usr/sbin/ebtables-nft')
 	print ("\033[32m [*]\033[31m Reboot your device please!\033[37m")
-	if os.system():
-		print ("Done!")
+	print ("Done!")
 except:
-	print ("\033[32m [>]\033[31m Done!\033[37m")
+	print ("\033[32m [>]\033[31m Error!\033[37m")
